@@ -1,0 +1,4 @@
+{
+	"cmd": ["sh","/Applications/Mplus/mplus.sh","$file"],
+	"selector": "source.mplus"
+}
