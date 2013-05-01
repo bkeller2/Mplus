@@ -1,4 +1,4 @@
 {
 	// Sets the colors used within the text area
-	"color_scheme": "Packages/Mplus.tmTheme"
+	"color_scheme": "Packages/Mplus/Mplus.tmTheme"
 }
