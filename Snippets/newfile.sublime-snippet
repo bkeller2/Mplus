@@ -1,20 +1,20 @@
 <snippet>
-	<content><![CDATA[TITLE: $1
+<content><![CDATA[TITLE: $1
 
-	DATA: FILE = $2;
+DATA: FILE = $2;
 
-	VARIABLE:  NAMES = $3;
-	           USEVARIABLES = $4;
-	           MISSING = ALL (-99);
-	              
-	ANALYSIS:
-	$5
+VARIABLE:  NAMES = $3;
+           USEVARIABLES = $4;
+           MISSING = ALL (-99);
+              
+ANALYSIS:
+$5
 
-	MODEL: 
-	$6
+MODEL: 
+$6
 
-	OUTPUT:
-	$7]]></content>
-	<tabTrigger>new file</tabTrigger>
-	<scope>source.mplus</scope>
+OUTPUT:
+$7]]></content>
+<tabTrigger>new file</tabTrigger>
+<scope>source.mplus</scope>
 </snippet>
