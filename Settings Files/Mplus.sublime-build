@@ -4,6 +4,7 @@
 
 		"windows":
 		{
-			"cmd":["echo","still working on it"]
+			"cmd": ["mplus","$file","&","C:\\Program Files\\Sublime Text 2\\sublime_text","${file/\\.inp/\\.out/}"],
+			"shell": true
 		}
 }
