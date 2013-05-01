@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Mplus</string>
+	<key>ordering</key>
+	<array>
+		<string>AD21200E-3501-4301-8492-32FC05376A3A</string>
+		<string>6388FFC9-926A-4F40-9A50-D2EA6F3B9A37</string>
+		<string>D1636CE1-788F-4D3C-A8B9-5F5CB78DE3B2</string>
+	</array>
+	<key>uuid</key>
+	<string>5BE76441-6BDC-4028-B48A-A96365E5B226</string>
+</dict>
+</plist>
