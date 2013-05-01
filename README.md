@@ -1,4 +1,4 @@
-Mplus-for-st2
+Mplus syntax editor with sublime text 2
 ==============
 
 Mplus syntax highlighting for sublime text 2.
