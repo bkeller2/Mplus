@@ -1,7 +1,7 @@
 {
 	"osx":
 	{
-		"cmd": ["sh","$packages/mplus.sh","$file"],
+		"cmd": ["sh","$packages/Mplus/mplus.sh","$file"],
 		"selector": "source.mplus"
 	}
 }
