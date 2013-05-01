@@ -1,17 +1,32 @@
-Mplus syntax editor with sublime text 2
+Mplus syntax editor for sublime text 2
 ==============
 
 Mplus syntax highlighting for sublime text 2.
 
-Will include syntax highlighting for inputs and outputs, code snippets, autocompletion, a dedicated theme, and ability to run in Mplus.
+Includes syntax highlighting for inputs and outputs, code snippets, auto completion, a dedicated theme, and ability to run inputs in Mplus.
 
 # Installation #
 
-Move the contents of the Settings Files folder into your User folder within the sublime packages folder.
+Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control)
 
-# Mac OSX Build setup #
+Press "Command + Shift + P" (Windows: "Control + Shift + P").
+Type "Add Repo" and select "Package Control: Add Repository".
+Enter: https://github.com/bkeller2/Mplus
+Press "Command + Shift + P" (Windows: "Control + Shift + P").
+Type "Install Package" and select "Package Control: Install Package"
+Type "Mplus" and select it.
 
-Take the shell script (Mplus.sh) and place this into your Mplus folder (/Applications/Mplus/). In order for this to work, sublime text 2 must be in your /Applications folder and the Mplus program must be in /Applications/Mplus/ as well.
+# Build setup #
+Currently the build feature works for windows and mac osX.
+For Mac OSX, it requires Mplus to be located in the folder "/Applications/Mplus/".
+For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to be installed in "/Applications/".
+
+For Windows, it requires an environmental variable to be set (usually done by default install).
+For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.
 
 
-# Currently in development, stay tuned! #
+# Still in development, stay tuned! #
+To do:
+Add templates for specific common models and analysis.
+Add more syntax highlighting.
+Overhaul the theme and language definitions.
