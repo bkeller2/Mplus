@@ -20,37 +20,37 @@
 			<key>match</key>
 			<string>(?i)\b(with|is|are|by|on|WITH|BY|ON|PWITH|at|AT|xwith|XWITH|ind|IND|via|VIA|ALL|if|then)\b</string>
 			<key>name</key>
-			<string>keyword.operator.mplus</string>
+			<string>keyword.operator.mplus_out</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b\d+(\.\d+)*\b</string>
 			<key>name</key>
-			<string>constant.numeric.mplus</string>
+			<string>constant.numeric.mplus_out</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\bEstimate\b|S\.E\.|Est\.\/S\.E\.|Two\-Tailed|P\-Value|H0 Value|H1 Value|Akaike \(AIC\)|Bayesian \(BIC\)|Sample\-Size Adjusted BIC|Value|Degrees of Freedom| Probability RMSEA &lt;= .05|CFI|TLI</string>
 			<key>name</key>
-			<string>entity.name.tag.mplus</string>
+			<string>entity.name.tag.mplus_out</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>MODEL FIT INFORMATION|INPUT INSTRUCTIONS|MODEL RESULTS|SUMMARY OF ANALYSIS|STANDARDIZED MODEL RESULTS|R\-SQUARE|TECHNICAL 1 OUTPUT|TECHNICAL 2 OUTPUT|TECHNICAL 3 OUTPUT|TECHNICAL 4 OUTPUT|TECHNICAL 5 OUTPUT|TECHNICAL 6 OUTPUT|TECHNICAL 7 OUTPUT|TECHNICAL 8 OUTPUT|TECHNICAL 9 OUTPUT|</string>
 			<key>name</key>
-			<string>entity.name.function.mplus</string>
+			<string>entity.name.function.mplus_out</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Means|Loglikelihood|Information Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|Chi\-Square Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)|Number of Free Parameters)\b</string>
 			<key>name</key>
-			<string>variable.language.mplus</string>
+			<string>variable.language.mplus_out</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(WARNING|ERROR)\b</string>
 			<key>name</key>
-			<string>invalid.illegal.mplus</string>
+			<string>invalid.illegal.mplus_out</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
