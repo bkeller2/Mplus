@@ -26,7 +26,7 @@ For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to o
 
 # Themes #
 
-This package currently offers two themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
+This package currently offers three themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
 To switch to the more highlighting option add this code into the syntax specific settings:
 
 ```
@@ -35,7 +35,13 @@ To switch to the more highlighting option add this code into the syntax specific
 	"color_scheme": "Packages/Mplus/Mplus.tmTheme"
 }
 ```
-
+To switch to the dark theme (black background) add this code intot he syntax specific settings:
+```
+{
+  // Sets the colors used within the text area
+	"color_scheme": "Packages/Mplus/Mplus Dark.tmTheme"
+}
+```
 
 # Still in development, stay tuned! #
 To do:
