@@ -7,7 +7,7 @@ Includes syntax highlighting for inputs and outputs, code snippets, auto complet
 
 # Installation #
 
-Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control)
+Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control/installation)
 
 Press "Command + Shift + P" (Windows: "Control + Shift + P").
 Type "Add Repo" and select "Package Control: Add Repository".
@@ -32,3 +32,5 @@ Add templates for specific common models and analysis.
 Add more syntax highlighting.
 
 Overhaul the theme and language definitions.
+
+Create light highlighting theme (similar to Mplus default).
