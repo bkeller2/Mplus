@@ -1,7 +1,7 @@
 Mplus syntax editor for sublime text 2
 ==============
 
-Mplus syntax highlighting for sublime text 2.
+http://bkeller2.github.io/Mplus/
 
 Includes syntax highlighting for inputs and outputs, code snippets, auto completion, a dedicated theme, and ability to run inputs in Mplus.
 
