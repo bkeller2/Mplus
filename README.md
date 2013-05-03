@@ -28,10 +28,10 @@ For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to o
 # Still in development, stay tuned! #
 To do:
 
-*Add templates for specific common models and analysis.
+* Add templates for specific common models and analysis.
 
-*Add more syntax highlighting.
+* Add more syntax highlighting.
 
-*Overhaul the theme and language definitions.
+* Overhaul the theme and language definitions.
 
-*Create light highlighting theme (similar to Mplus default).
+* Create light highlighting theme (similar to Mplus default).
