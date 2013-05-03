@@ -5,7 +5,7 @@
 	<key>author</key>
 	<string>Brian Keller</string>
 	<key>name</key>
-	<string>Mplus</string>
+	<string>Mplus Lite</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -48,7 +48,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#FF432E</string>
+				<string>#6666FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -98,9 +98,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#4FADCC</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -200,7 +200,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -398,7 +398,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF8000</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -451,6 +451,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>BDEF30E0-6CB8-45FE-9A2F-192A85332DA2</string>
+	<string>6469065C-A185-4E18-AB69-51101278FE82</string>
 </dict>
 </plist>

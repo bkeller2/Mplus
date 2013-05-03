@@ -1,5 +1,5 @@
 {
 	// Sets the colors used within the text area
-	"color_scheme": "Packages/Mplus/Mplus.tmTheme",
+	"color_scheme": "Packages/Mplus/Mplus lite.tmTheme",
 	"rulers": [80]
 }
