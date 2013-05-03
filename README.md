@@ -24,6 +24,18 @@ For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to
 For Windows, it requires an environmental variable to be set (usually done by default install).
 For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.
 
+# Themes #
+
+This package currently offers two themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
+To switch to the more highlighting option add this code into the syntax specific settings:
+
+```
+{
+  // Sets the colors used within the text area
+	"color_scheme": "Packages/Mplus/Mplus.tmTheme"
+}
+```
+
 
 # Still in development, stay tuned! #
 To do:
@@ -33,5 +45,3 @@ To do:
 * Add more syntax highlighting.
 
 * Overhaul the theme and language definitions.
-
-* Create light highlighting theme (similar to Mplus default).
