@@ -28,7 +28,9 @@
         </ul>
       </header>
       <section>
-        <h1>Installation</h1>
+        <p>Includes syntax highlighting for inputs and outputs, code snippets, auto completion, a dedicated theme, and ability to run inputs in Mplus.</p>
+
+<h1>Installation</h1>
 
 <p>Install Package Control for sublime text 2 (<a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>)</p>
 
@@ -48,6 +50,25 @@ For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to
 <p>For Windows, it requires an environmental variable to be set (usually done by default install).
 For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.</p>
 
+<h1>Themes</h1>
+
+<p>This package currently offers three themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
+To switch to the more highlighting option add this code into the syntax specific settings:</p>
+
+<pre><code>{
+  // Sets the colors used within the text area
+    "color_scheme": "Packages/Mplus/Mplus.tmTheme"
+}
+</code></pre>
+
+<p>To switch to the dark theme (black background) add this code intot he syntax specific settings:</p>
+
+<pre><code>{
+  // Sets the colors used within the text area
+    "color_scheme": "Packages/Mplus/Mplus Dark.tmTheme"
+}
+</code></pre>
+
 <h1>Still in development, stay tuned!</h1>
 
 <p>To do:</p>
@@ -56,11 +77,11 @@ For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to o
 <li><p>Add templates for specific common models and analysis.</p></li>
 <li><p>Add more syntax highlighting.</p></li>
 <li><p>Overhaul the theme and language definitions.</p></li>
-<li><p>Create light highlighting theme (similar to Mplus default).</p></li>
 </ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/bkeller2">bkeller2</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
