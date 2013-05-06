@@ -7,14 +7,25 @@ Includes syntax highlighting for inputs and outputs, code snippets, auto complet
 
 # Installation #
 
-Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control/installation)
+Install Sublime Text 2 by going to http://www.sublimetext.com/2 and following their directions.
 
-Press "Command + Shift + P" (Windows: "Control + Shift + P").
-Type "Add Repo" and select "Package Control: Add Repository".
-Enter: https://github.com/bkeller2/Mplus
-Press "Command + Shift + P" (Windows: "Control + Shift + P").
-Type "Install Package" and select "Package Control: Install Package"
-Type "Mplus" and select it.
+Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control/installation):
+1. Press "Control + `" (Both Mac and Windows).
+2. Paste the following code into the console:
+
+```
+import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
+```
+
+3. Restart Sublime Text 2.
+
+Install Mplus syntax highlighter:
+1. Press "Command + Shift + P" (Windows: "Control + Shift + P").
+2. Type "Add Repo" and select "Package Control: Add Repository".
+3. Enter: https://github.com/bkeller2/Mplus
+4. Press "Command + Shift + P" (Windows: "Control + Shift + P").
+5. Type "Install Package" and select "Package Control: Install Package"
+6. Type "Mplus" and select it.
 
 # Build setup #
 Currently the build feature works for windows and mac osX.
