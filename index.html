@@ -32,25 +32,43 @@
 
 <h1>Installation</h1>
 
-<p>Install Package Control for sublime text 2 (<a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>)</p>
+<p>Install Sublime Text 2 by going to <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a> and following their directions.</p>
 
-<p>Press "Command + Shift + P" (Windows: "Control + Shift + P").
-Type "Add Repo" and select "Package Control: Add Repository".
-Enter: <a href="https://github.com/bkeller2/Mplus">https://github.com/bkeller2/Mplus</a>
-Press "Command + Shift + P" (Windows: "Control + Shift + P").
-Type "Install Package" and select "Package Control: Install Package"
-Type "Mplus" and select it.</p>
+<p><strong>Install Package Control for sublime text 2 (<a href="http://wbond.net/sublime_packages/package_control/installation):">http://wbond.net/sublime_packages/package_control/installation):</a></strong></p>
 
-<h1>Build setup</h1>
+<ol>
+<li>Open Sublime Text 2.</li>
+<li>Press <strong>Control + `</strong> (Both Mac and Windows).</li>
+<li>Paste the code below into the console.</li>
+<li>Restart Sublime Text 2.</li>
+</ol><pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
+</code></pre>
 
-<p>Currently the build feature works for windows and mac osX.
-For Mac OSX, it requires Mplus to be located in the folder "/Applications/Mplus/".
-For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to be installed in "/Applications/".</p>
+<p><strong>Install Mplus syntax highlighter:</strong></p>
 
-<p>For Windows, it requires an environmental variable to be set (usually done by default install).
-For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.</p>
+<ol>
+<li>Press <strong>Command + Shift + P</strong> (Windows: <strong>Control + Shift + P</strong>).</li>
+<li>Type "Add Repo" and select "Package Control: Add Repository".</li>
+<li>Enter: <a href="https://github.com/bkeller2/Mplus">https://github.com/bkeller2/Mplus</a>
+</li>
+<li>Press <strong>Command + Shift + P</strong> (Windows: <strong>Control + Shift + P</strong>).</li>
+<li>Type "Install Package" and select "Package Control: Install Package".</li>
+<li>Type "Mplus" and select it.</li>
+</ol><h1>Build setup</h1>
 
-<h1>Themes</h1>
+<p><strong>Currently the build feature works for Windows and Mac OSX.</strong></p>
+
+<p>Mac OSX:</p>
+
+<ul>
+<li>Requires Mplus to be located in the folder "/Applications/Mplus/".</li>
+<li>To open the outputs in Sublime Text 2 it requires Sublime text 2 to be installed in "/Applications/".</li>
+</ul><p>Windows:</p>
+
+<ul>
+<li>Requires a path in the command line to run Mplus using the 'mplus' command (usually done by default install).</li>
+<li>To open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.</li>
+</ul><h1>Themes</h1>
 
 <p>This package currently offers three themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
 To switch to the more highlighting option add this code into the syntax specific settings:</p>
@@ -74,14 +92,16 @@ To switch to the more highlighting option add this code into the syntax specific
 <p>To do:</p>
 
 <ul>
-<li><p>Add templates for specific common models and analysis.</p></li>
-<li><p>Add more syntax highlighting.</p></li>
-<li><p>Overhaul the theme and language definitions.</p></li>
+<li>Add templates for specific common models and analysis.</li>
+<li>Add more syntax highlighting.</li>
+<li>Overhaul the theme and language definitions.</li>
+<li>Incorporate into package control repo.</li>
 </ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/bkeller2">bkeller2</a></p>
-         </footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
