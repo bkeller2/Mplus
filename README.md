@@ -61,7 +61,7 @@ To switch to the dark theme (black background) add this code intot he syntax spe
 ```
 
 # Still in development, stay tuned! #
-To do:
+**To do:**
 * Add templates for specific common models and analysis.
 * Add more syntax highlighting.
 * Overhaul the theme and language definitions.
