@@ -9,7 +9,7 @@ http://bkeller2.github.io/Mplus/
 
 Install Sublime Text 2 by going to http://www.sublimetext.com/2 and following their directions.
 
-**Install Package Control for sublime text 2 (http://wbond.net/sublime_packages/package_control/installation):**
+**Install Package Control for sublime text 2 ( http://wbond.net/sublime_packages/package_control/installation ):**
 
 1. Open Sublime Text 2.
 2. Press **Control + `** (Both Mac and Windows).
