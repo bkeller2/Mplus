@@ -30,12 +30,12 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 
 
 # Build setup #
-Currently the build feature works for windows and mac osX.
-For Mac OSX, it requires Mplus to be located in the folder "/Applications/Mplus/".
-For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to be installed in "/Applications/".
+Currently the build feature works for Windows and Mac OSX.
+* For Mac OSX, it requires Mplus to be located in the folder "/Applications/Mplus/".
+* For Mac OSX, to open the outputs in Sublime Text 2 it requires Sublime text 2 to be installed in "/Applications/".
 
-For Windows, it requires an environmental variable to be set (usually done by default install).
-For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.
+* For Windows, it requires an environmental variable to be set (usually done by default install).
+* For Windows, to open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.
 
 # Themes #
 
