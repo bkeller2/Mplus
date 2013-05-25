@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[(OBLIQUE $1)]]></content>
+<tabTrigger>oblique</tabTrigger>
+<scope>source.mplus</scope>
+<description>Oblique Rotation</description>
+</snippet>

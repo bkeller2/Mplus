@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[%OVERALL%]]></content>
+<tabTrigger>overall</tabTrigger>
+<scope>source.mplus</scope>
+<description>Overall header</description>
+</snippet>

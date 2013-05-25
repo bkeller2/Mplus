@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[%BETWEEN$1%$2]]></content>
+<tabTrigger>between</tabTrigger>
+<scope>source.mplus</scope>
+<description>Between header</description>
+</snippet>

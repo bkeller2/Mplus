@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[(ORTHOGONAL $1)]]></content>
+<tabTrigger>orthogonal</tabTrigger>
+<scope>source.mplus</scope>
+<description>Orthogonal Rotation</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[%WITHIN%]]></content>
+<tabTrigger>within</tabTrigger>
+<scope>source.mplus</scope>
+<description>Within header</description>
+</snippet>
