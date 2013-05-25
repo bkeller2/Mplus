@@ -40,8 +40,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)(\bTITLE\b:|\bDATA\b:|\bDATA\b \bIMPUTATION\b:|\bDATA\b \bWIDETOLONG\b:|\bDATA\b \bLONGTOWIDE\b:|\bDATA\b \bTWOPART\b:|\bDATA\b \bMISSING\b:|\bDATA\b \bSURVIVAL\b:|\bDATA\b \bCOHORT\b:|\bVARIABLE\b:|\bDEFINE\b:|\bANALYSIS\b:|\bMODEL\b:|\bMODEL\b \bINDIRECT\b:|\bMODEL\b \bCONSTRAINT\b:|\bMODEL\b \bTEST\b:|\bMODEL\b \bPRIORS\b:|\bMODEL\b \bPOPULATION\b:|\bMODEL\b \bCOVERAGE\b:|\bMODEL\b \bMISSING\b:|\bOUTPUT\b:|\bSAVEDATA\b:|\bPLOT\b:|\bMODEL\b\s(.+):)
-			</string>
+			<string>(?i)(\bTITLE\b:|\bDATA\b:|\bDATA\b \bIMPUTATION\b:|\bDATA\b \bWIDETOLONG\b:|\bDATA\b \bLONGTOWIDE\b:|\bDATA\b \bTWOPART\b:|\bDATA\b \bMISSING\b:|\bDATA\b \bSURVIVAL\b:|\bDATA\b \bCOHORT\b:|\bVARIABLE\b:|\bDEFINE\b:|\bANALYSIS\b:|\bMODEL\b:|\bMODEL\b \bINDIRECT\b:|\bMODEL\b \bCONSTRAINT\b:|\bMODEL\b \bTEST\b:|\bMODEL\b \bPRIORS\b:|\bMODEL\b \bPOPULATION\b:|\bMODEL\b \bCOVERAGE\b:|\bMODEL\b \bMISSING\b:|\bOUTPUT\b:|\bSAVEDATA\b:|\bPLOT\b:|\bMODEL\b\s(.+):)</string>
 			<key>name</key>
 			<string>entity.name.function.mplus</string>
 		</dict>
