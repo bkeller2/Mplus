@@ -9,6 +9,6 @@
 		},
 		"linux":
 		{
-			"cmd": ["sh","$packages/Mplus/mplus_linux.sh","$file"],
+			"cmd": ["echo","Still working on linux build system"],
 		}
 }
