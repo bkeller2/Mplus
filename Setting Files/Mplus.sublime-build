@@ -9,6 +9,6 @@
 		},
 		"linux":
 		{
-			"cmd": ["echo","Still working on linux build system"],
+			"cmd": ["echo","Still working on linux build system."],
 		}
 }
