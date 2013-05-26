@@ -6,5 +6,9 @@
 		{
 			"cmd": ["mplus","$file","&","C:\\Program Files\\Sublime Text 2\\sublime_text","${file/\\.inp/\\.out/}"],
 			"shell": true
+		},
+		"linux":
+		{
+			"cmd": ["sh","$packages/Mplus/mplus_linux.sh","$file"],
 		}
 }
