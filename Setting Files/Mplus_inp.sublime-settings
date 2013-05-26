@@ -1,5 +1,6 @@
 {
 	// Sets the colors used within the text area
 	"color_scheme": "Packages/Mplus/Mplus lite.tmTheme",
-	"rulers": [90]
+	"rulers": [90],
+  	"auto_complete_selector": "source, text"
 }
