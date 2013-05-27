@@ -39,7 +39,15 @@ Mac OSX:
  
 Windows:
 * Requires a path in the command line to run Mplus using the 'mplus' command (usually done by default install).
-* To open the outputs in Sublime Text 2 it requires ".out" files to open via Sublime Text 2 by default.
+* Requires Sublime text 2 to be installed in "C:\Program Files\Sublime Text 2\"
+
+Linux:
+* Requires a path to be able to run mplus via command line (i.e., mplus example.inp).
+* Requires a path to be able to run sublime text using "subl" via command line. E.g., for sublime text installed in "/opt/" :
+
+```
+sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/subl
+```
 
 # Themes #
 
@@ -63,6 +71,5 @@ To switch to the dark theme (black background) add this code intot he syntax spe
 # Still in development, stay tuned! #
 **To do:**
 * Add templates for specific common models and analysis.
-* Add more syntax highlighting.
 * Overhaul the theme and language definitions.
 * Incorporate into package control repo.
