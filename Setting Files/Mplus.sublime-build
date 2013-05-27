@@ -9,7 +9,7 @@
 
 		"windows":
 		{
-			"cmd": ["mplus","$file","&","C:\\Program Files\\Sublime Text 2\\sublime_text","${file/\\.inp/\\.out/}"]
+			"cmd": ["mplus","$file","&","C:\\Program Files\\Sublime Text 2\\sublime_text","\"C:\Program Files\Sublime Text 2\sublime_text.exe\"","${file/\\.inp/\\.out/}"]
 		},
 
 		"linux":
