@@ -12,7 +12,7 @@ Install Sublime Text 2 by going to http://www.sublimetext.com/2 and following th
 **Install Package Control for sublime text 2 ( http://wbond.net/sublime_packages/package_control/installation ):**
 
 1. Open Sublime Text 2.
-2. Press **Control + `** (Both Mac and Windows).
+2. Press **Control + `** (Mac, Linux, Windows).
 2. Paste the code below into the console.
 3. Restart Sublime Text 2.
 
@@ -22,10 +22,10 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 
 **Install Mplus syntax highlighter:**
 
-1. Press **Command + Shift + P** (Windows: **Control + Shift + P**).
+1. Press **Command + Shift + P** (Windows/Linux: **Control + Shift + P**).
 2. Type "Add Repo" and select "Package Control: Add Repository".
 3. Enter: https://github.com/bkeller2/Mplus
-4. Press **Command + Shift + P** (Windows: **Control + Shift + P**).
+4. Press **Command + Shift + P** (Windows/Linux: **Control + Shift + P**).
 5. Type "Install Package" and select "Package Control: Install Package".
 6. Type "Mplus" and select it.
 
