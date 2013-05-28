@@ -5,6 +5,15 @@ http://bkeller2.github.io/Mplus/
 
 * Includes syntax highlighting for inputs and outputs, code snippets, auto completion, a dedicated theme, and ability to run inputs in Mplus.
 
+# Usage #
+
+* Simply open up any .inp or .out file with sublime text 2. To start a new file, first open a new tab (**control + N**).
+* Save this file with whatever name you would like and end it with a .inp. This will turn on the Mplus highlighting.
+* To run an input hit **control + B**. This will run the input with Mplus and open the corresponding output.
+* Another nice feature of Sublime Text 2 is it allows you to create projects under the "Project menu". This will allow you to open up a project with multiple inputs/outputs, close out of the program, and then load it back how you left it.
+* Furthermore, by going to View > Layout you can create multiple columns of files. This is useful for comparing inputs or outputs of different models.
+* For more information about sublime text 2 please go to http://www.sublimetext.com/ .
+
 # Installation #
 
 Install Sublime Text 2 by going to http://www.sublimetext.com/2 and following their directions.
@@ -30,8 +39,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 6. Type "Mplus" and select it.
 
 
+**Alternate Installation Method**
+
+1. Download and unzip https://github.com/bkeller2/Mplus/zipball/master .
+2. In sublime text 2 go to Preferences > Packages.
+3. Move the unzipped folder into there and begin.
+
 # Build setup #
-**Currently the build feature works for Windows and Mac OSX.**
 
 Mac OSX:
 * Requires Mplus to be located in the folder "/Applications/Mplus/".
