@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)(\bLOG\b|\bLOG10\b|\bEXP\b|\bSQRT\b|\bABS\b|\bSIN\b|\bCOS\b|\bTAN\b|\bASIN\b|\bACOS\b|\bATAN\b|\bNONE\b|\bAND\b|\bOR\b|\bNOT\b|\bEQ\b|\bNE\b|\bGE\b|\bLE\b|\bGT\b|\bLT\b|\bDO\b|\bIF\b|\bTHEN\b|\bVIA\b|\bARE\b|\bALL\b|\bBY\b|\bON\b|\bPON\b|\bWITH\b|\bPWITH\b|\bAT\b|\bXWITH\b)</string>
+			<string>(?i)(\bLOG\b|\bLOG10\b|\bEXP\b|\bSQRT\b|\bABS\b|\bSIN\b|\bCOS\b|\bTAN\b|\bASIN\b|\bACOS\b|\bATAN\b|\bNONE\b|\bAND\b|\bOR\b|\bNOT\b|\bEQ\b|\bNE\b|\bGE\b|\bLE\b|\bGT\b|\bLT\b|\bDO\b|\bIF\b|\bTHEN\b|\bVIA\b|\bARE\b|\bIS\b|\bALL\b|\bBY\b|\bON\b|\bPON\b|\bWITH\b|\bPWITH\b|\bAT\b|\bXWITH\b)</string>
 			<key>name</key>
 			<string>keyword.operator.mplus</string>
 		</dict>
