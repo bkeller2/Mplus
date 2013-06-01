@@ -7,7 +7,7 @@ http://bkeller2.github.io/Mplus/
 
 # Usage #
 
-* Simply open up any .inp or .out file with sublime text 2. To start a new file, first open a new tab (**Control + N**).
+* Simply open up any .inp or .out file with sublime text 2. To start a new file, first open a new tab ( **Control + N** ).
 * Save this file with whatever name you would like and end it with a .inp. This will turn on the Mplus highlighting.
 * To run an input hit **Control + B**. This will run the input with Mplus and open the corresponding output.
 * Another nice feature of Sublime Text 2 is it allows you to create projects under the "Project menu". This will allow you to open up a project with multiple inputs/outputs, close out of the program, and then load it back how you left it.
