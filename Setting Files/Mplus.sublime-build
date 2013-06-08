@@ -4,7 +4,7 @@
 
 		"osx":
 		{
-			"cmd": ["/Applications/Mplus/mplus $file ; open -a \"/Applications/Sublime Text 2.app\" \"${file/\\.inp/\\.out/}\""]
+			"cmd": ["/Applications/Mplus/mplus "$file" ; open -a \"/Applications/Sublime Text 2.app\" \"${file/\\.inp/\\.out/}\""]
 		},
 
 		"windows":
@@ -14,6 +14,6 @@
 
 		"linux":
 		{
-			"cmd": ["mplus $file ; subl \"${file/\\.inp/\\.out/}\""]
+			"cmd": ["mplus "$file" ; subl \"${file/\\.inp/\\.out/}\""]
 		}
 }
