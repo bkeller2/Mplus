@@ -83,4 +83,3 @@ To switch to the dark theme (black background) add this code intot he syntax spe
 **To do:**
 * Add templates for specific common models and analysis.
 * Overhaul the theme and language definitions.
-* Incorporate into package control repo.
